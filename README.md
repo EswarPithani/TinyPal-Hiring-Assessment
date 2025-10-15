@@ -3,7 +3,7 @@
 A React Native mobile application providing educational parenting content through interactive flash cards and "Did You Know" insights, powered by AI assistant Tinu.
 
 
-Project Structure
+# Project Structure
 TinyPalApp/
 ├── src/
 │   ├── components/          # Reusable UI components
@@ -61,12 +61,12 @@ git clone https://github.com/EswarPithani/TinyPal-Hiring-Assessment.git
 cd TinyPalApp
 
 
-2. Install Dependencies
+### 2. Install Dependencies
 npm install
 
 Building APK -> expo build:android
 
-API Integration
+# API Integration
 The app integrates with TinyPal backend APIs:
 
 POST /p13n_answers - Get personalized educational content
@@ -74,7 +74,7 @@ POST /p13n_answers - Get personalized educational content
 POST /activate_tinu - Activate Tinu AI assistant
 
 
-GenAI Usage Disclosure
+# GenAI Usage Disclosure
 This project utilized Deepseek for:
 
 Code Structure: Component architecture and organization
@@ -83,12 +83,9 @@ API Integration: Data transformation and error handling patterns
 
 UI/UX Design: Responsive design implementation and animations
 
-Documentation: README and system design documentation
-
 AI was used as a coding assistant to accelerate development while maintaining code quality and best practices.
 
-Testing
-Manual Testing Checklist
+# Testing
 Navigation between screens works smoothly
 
 Cards display correctly with images and content
@@ -101,17 +98,12 @@ Responsive design works on different screen sizes
 
 API calls succeed and handle errors gracefully
 
-Contributing
+# Contributing
 Fork the repository
-
 Create a feature branch
-
 Commit your changes
-
 Push to the branch
-
 Create a Pull Request
 
-
-License
+# License
 This project is developed as part of TinyPal hiring assignment.
